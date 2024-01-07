@@ -68,8 +68,10 @@
                         Value="program7"></asp:MenuItem>
                     <asp:MenuItem Text="program8" Value="program8" 
                         NavigateUrl="~/Pages/UprgramEight.aspx"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/Pages/UprogramNine.aspx" Text="program9" 
+                    <asp:MenuItem NavigateUrl="~/Pages/UprogramTen.aspx" Text="program9" 
                         Value="program9"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Pages/UprogramNine.aspx" Text="program10" 
+                        Value="program10"></asp:MenuItem>
                 </asp:MenuItem>
             </Items>
             <StaticHoverStyle BackColor="#990000" ForeColor="White" />

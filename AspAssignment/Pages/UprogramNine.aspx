@@ -22,31 +22,37 @@
         <div class="proninelbl">
             <div class="form-floating mb-3 ">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
-                <label for="floatingTextareaDisabled"><b class="lblnine">P9 -> 
+                <label for="floatingTextareaDisabled"><b class="lblnine">P10 -> 
                 dropdown list</b></label>
              </div>
         </div>
     <div class="dropdownlist" align="center">
-    <table>
+    <table cellspacing="10" cellpadding="5">
         <tr>
-            <td>
+            <td colspan="1">
                  <asp:DropDownList ID="ddl1" runat="server" 
                      onselectedindexchanged="ddl1_SelectedIndexChanged">
                     <asp:ListItem>java</asp:ListItem>
                     <asp:ListItem>php</asp:ListItem>
                   </asp:DropDownList>
             </td>
-            <td>
+            <td colspan="2">
                 <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
             </td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>
-                <asp:Button ID="btnadd" runat="server" Text="ADD" />
+                <asp:Button ID="Button2" runat="server" Text="Select" onclick="Button2_Click" />
+            </td>
+            <td>
+                <asp:Button ID="btnadd" runat="server" Text="ADD" onclick="btnadd_Click" />
+            </td>
+            <td>
+                <asp:Button ID="Button1" runat="server" Text="REMOVE" onclick="Button1_Click" />
             </td>
         </tr>
-        <tr>
-            <td>
+        <tr align="center">
+            <td colspan="3">
                 <asp:Label ID="lblans" runat="server" Text=""></asp:Label>
             </td>
         </tr>
